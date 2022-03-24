@@ -1,0 +1,82 @@
+  >> Current path: /workspace
+Training/evaluation parameters AttrDict({'data_dir': 'data/article', 'train_file': 'train_dataset.json', 'valid_file': 'valid_dataset.json', 'output_dir': 'kobart_ckpt', 'model_type': 'kobart', 'max_seq_length': 1024, 'no_cuda': False, 'do_train': True, 'do_eval': True, 'evaluate_during_training': True, 'model_name_or_path': 'models/kobart', 'ckpt_dir': 'ckpt', 'overwrite': False, 'seed': 52, 'gradient_accumulation_steps': 100, 'num_train_epochs': 5, 'train_batch_size': 10, 'valid_batch_size': 32, 'logging_steps': 5000, 'save_steps': 5000, 'learning_rate': 0.0001, 'adam_epsilon': 1e-08, 'weight_decay': 0.0, 'warmup_proportion': 0.01})
+***** Running training *****
+  Num examples = 271087
+  Num Epochs = 5
+  Train batch size per GPU = 10
+  Total train batch size (w. parallel, distributed & accumulation) = 1000
+  Gradient Accumulation steps = 100
+  Total optimization steps = 1355
+epoch: 0, step: 5000, eval_loss: 1.5942, acc: 0.8615, rouge-1: 0.3807, rouge-2: 0.1018, rouge-l: 0.3584
+INFER: 보성군은 한국차박물관에 차나 학생들의 힐링 체험 프로그램으로 각광받고으며 체험 상반기에만 1천500여명의 체험객이 다녀갔다. 차 4월에는 광주광역시 서구청 직원 워크숍 대상지로 낙점 받아 직원 600여명이 방문했다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-5000
+epoch: 0, step: 10000, eval_loss: 1.5175, acc: 0.8626, rouge-1: 0.3853, rouge-2: 0.1050, rouge-l: 0.3637
+INFER: 최근스타항공은 21일 '종화 대한바둑협회이사를 초대 감독으로 영입하고 4명의 아마추어 여자선 구성된 국내 첫 실업 바둑팀인 ‘이스타항공 바둑단' 창단식을 갖고 본격적인 나선한다. 바둑을 이용한 서비스 개발, 고객 활동, 바둑을 통한 브랜드 인지도 확산에 힘쓸 계획이다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-10000
+epoch: 0, step: 15000, eval_loss: 1.4940, acc: 0.8828, rouge-1: 0.3878, rouge-2: 0.1067, rouge-l: 0.3665
+INFER: 한국 킨텍스에서 한국LH 하우징 플랫폼 페스타'를 개최한다고 예정이며 이번 LH 창립주택에 철학과 비전을 비전을 수립를 위해 자리로 LH 현장등록으로 참여 누구나 참여 가능하다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-15000
+epoch: 0, step: 20000, eval_loss: 1.4782, acc: 0.8970, rouge-1: 0.3887, rouge-2: 0.1073, rouge-l: 0.3677
+INFER: 충주체험관광센터의 대표 관광프로그램인 감성투어가 관광객들로부터 인기를 끌며 충주관광 활성화의 촉매제 역할을 하고 있다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-20000
+epoch: 0, step: 25000, eval_loss: 1.4693, acc: 0.9012, rouge-1: 0.3888, rouge-2: 0.1073, rouge-l: 0.3680
+INFER: 금융당서울청사 합동브리핑실에서 손전환대출 신청결과 및 향후 계획 브리핑을 금융당병두 금융위 부위원장은 안심·고정금리 대출 상품인 안심전환대출에 총 74조 원 상당의 신청이 접수되었다고 당초트라인은 2억 원대에서 결정될 것으로 예상된다고 것이라고 예상다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-25000
+epoch: 1, step: 30000, eval_loss: 1.4614, acc: 0.9002, rouge-1: 0.3898, rouge-2: 0.1081, rouge-l: 0.3691
+INFER: 미부모모 양육비 최대 18만 원 받 반면, 아이를양을에에 아이를 명당 128만 원이 지원 등 미혼모가에게이 복지 복지체 개선 중심의 복지체로 바꿔해야 미혼모를 가 양육 책임을 전환 필요하
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-30000
+epoch: 1, step: 35000, eval_loss: 1.4583, acc: 0.9025, rouge-1: 0.3897, rouge-2: 0.1085, rouge-l: 0.3694
+INFER: 지난 25일 알투브이는 프라이빗 밋업을 통해 디탈중앙 플록체인 서비스를 위한 우주정거장'이라는 의미의 디 퍼블릭 블록체인 플랫폼 이그드라시의(Yggdrash)의 인큐베이션 센터 디스테이션을 론 발표했다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-35000
+epoch: 1, step: 40000, eval_loss: 1.4531, acc: 0.9025, rouge-1: 0.3905, rouge-2: 0.1087, rouge-l: 0.3700
+INFER: 당진시는 지난 201진시청 소회의실에서 201 2019년 정부예산 확보를 위한 전략개 사업, 7076억 원의 사업비를 확보를 활동을 국비 보고회를 개최하고  26일 어기구 국회의원과 간담회를 갖고 긴밀한 공조체제를 구축할 방침이다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-40000
+epoch: 1, step: 45000, eval_loss: 1.4478, acc: 0.9043, rouge-1: 0.3903, rouge-2: 0.1084, rouge-l: 0.3698
+INFER: 광주신세계가 오는일까지 가을 정기세일을 진행 패션 막 코전문관과 함께 300여, 식품, 잡화 등 300여개 브랜드에서 최대 50%까지 할인해주는정이며 행사별 행사장에서도 이월상품을 최대 70% 할인된 가격으로 브랜드한다. 예정이다.
+epoch: 1, step: 50000, eval_loss: 1.4459, acc: 0.9045, rouge-1: 0.3905, rouge-2: 0.1085, rouge-l: 0.3700
+INFER: 음성군은 여름철 폭염경보가 발효되자 가축별해를 최소화하기 위해 가축 직접 방문해 애로사항을 청취와 가축 피해예방 활동을 강화 등 축산 관계자는 " 축산 요령 홍보해 축산재해보험 가입을 희망장했다. 등 폭염 피해를 최소화하기 노력 노력하겠다고 밝혔다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-50000
+epoch: 2, step: 55000, eval_loss: 1.4448, acc: 0.9039, rouge-1: 0.3904, rouge-2: 0.1085, rouge-l: 0.3702
+INFER: 9체인 플랫폼  퀀텀은 블록 거래 바꿔피해하여 암호화폐가 거래하는 위해 아소 없는 없는 아토믹스왑을 진행 등 변화를 꾀하고 있다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-55000
+epoch: 2, step: 60000, eval_loss: 1.4408, acc: 0.9048, rouge-1: 0.3907, rouge-2: 0.1089, rouge-l: 0.3703
+INFER: 부산 동래구는 25일관계자들을 초청'오후 4시 30분분에 '래구청 대회의실에서 '소통! 출산장려 토크쇼'를 개최 예정이며, 토크교사의 고충과 엄마들의 상호 이해로 보육환경을이의 토대가 될될으면 좋 밝혔했다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-60000
+epoch: 2, step: 65000, eval_loss: 1.4401, acc: 0.9065, rouge-1: 0.3908, rouge-2: 0.1091, rouge-l: 0.3706
+INFER: 문재인 국민연금공단 본사에서 열린 '전북혁신도시 공공기관 정책포럼'에서 참석한 대통령재호 위원장은 " 중앙정부가 지역발전사업을 재단하는 기존의 옳지 않다며 예타 면제 정당성에 힘을 실어주었다.으며, 예만금 공항 예타면제 포함 여부를 대해서는 즉 피했다. 모습을 보였다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-65000
+epoch: 2, step: 70000, eval_loss: 1.4396, acc: 0.9062, rouge-1: 0.3911, rouge-2: 0.1094, rouge-l: 0.3709
+INFER: SK텔레콤이 인간 보호에 대한 대중의 관심을 높이기 위해 '강현실실과 가상현 등 다양한 미디어 기술을 ICT 기술을 활용한 '동물 없는 동물원'극곰편'을 제작해 23일 유튜브 영상을 통해 공개했다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-70000
+epoch: 2, step: 75000, eval_loss: 1.4387, acc: 0.9059, rouge-1: 0.3915, rouge-2: 0.1094, rouge-l: 0.3713
+INFER: 일제강점기 당시 1913년 4월에서 개최됐던 자전차 대회에서 1등인 최초로 전조선자전차대회 1위를 차지한 엄복동의 업적을 소재로 한 영화전차왕 엄복동 3.1운동 100주년을 앞두고 201 개봉한다. 예정이다. 일제욕의 시대 속에서만 조선이 함께 열광한 엄리의 역 오는에서 만날 수 있다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-75000
+epoch: 2, step: 80000, eval_loss: 1.4350, acc: 0.9067, rouge-1: 0.3917, rouge-2: 0.1095, rouge-l: 0.3715
+INFER: 인천시는 만를 50%를 지원하는 시니어인턴십 만들의 풍부한 활동 활용해 고용취업 기회 제공 노인일자리 창출을 목적으로 한다. 노인세 이상 고령자에게 대한 일자리 일자리사업을 추진하겠다고 예정 밝혔다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-80000
+epoch: 3, step: 85000, eval_loss: 1.4362, acc: 0.9065, rouge-1: 0.3911, rouge-2: 0.1092, rouge-l: 0.3709
+INFER: 30일세종 찾아가는 일자리 채용설명회'가 30일 30일 고려대 세종캠퍼스에서 열려, 및 및 취업준생 300여명이 참여한했으며 이부에서는특강에서는 2부 부상담, 현장면접, 다양한 프로그램을 진행되었다.
+epoch: 3, step: 90000, eval_loss: 1.4348, acc: 0.9061, rouge-1: 0.3915, rouge-2: 0.1095, rouge-l: 0.3713
+INFER: 인천렌도씨와은 지난해 12월28비자로 한국에 입국 난민인정회부 심사를 신청했다가 '불회부' 결정을 받고 인천 달째 인천공항에 지내고 있으며 인천 한국 인권단체와 도움을 받아 인천지법에 불회부 처분 취소소송을 제기했다.
+epoch: 3, step: 95000, eval_loss: 1.4344, acc: 0.9062, rouge-1: 0.3915, rouge-2: 0.1094, rouge-l: 0.3714
+INFER: 한국투자증권이 미국 중서부 지역의 주유소에 15 1550 규모의 인수금융을 제공하는 방식으로 투자를한
+epoch: 3, step: 100000, eval_loss: 1.4320, acc: 0.9054, rouge-1: 0.3918, rouge-2: 0.1096, rouge-l: 0.3715
+INFER: 원주혁신도시 13개 공공기관과 지역행복발전 강원’을 선포하며 지역도와 행복주시와 함께 국민건강보험공단 대강당에서 지역행복가득,가치충만,미래발전 강원’ 추진을 위한 업무협약을 체결었다.으로써 지역사회 상생발전을 위한 공동기금 조성, 공동사업에 협력하기로쓰기로 했다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-100000
+epoch: 3, step: 105000, eval_loss: 1.4318, acc: 0.9062, rouge-1: 0.3915, rouge-2: 0.1096, rouge-l: 0.3714
+INFER: 30일 금속노조 현대중공업지부에 따르면 최근적분할 반대 투쟁이 인한 소송비 등으로 비용 증가로 노조 노조비 인상 추진하겠다고 밝혔다. 현 대해 노조장의 의견은 분분하다.
+epoch: 4, step: 110000, eval_loss: 1.4335, acc: 0.9065, rouge-1: 0.3915, rouge-2: 0.1095, rouge-l: 0.3713
+INFER: 28일산경찰 여산면출소에서 근무하던 불년이 2년 앞둔 박권서 경감의 지난 25일 오후 받고 출동하던 손의의 사고로 사망졌 되었 박 오전산경찰서에서 영들을 동료들의 헌도 함께 영결식이 거수했다.
+epoch: 4, step: 115000, eval_loss: 1.4313, acc: 0.9069, rouge-1: 0.3915, rouge-2: 0.1093, rouge-l: 0.3714
+INFER: 지난 청주 청주 실종된 지적중생 조은누리(1 찾기에 지역 도움을전단지를 배포로 전파하는 등 많은 관심이이 이어지고지고 있지만 조적은도 없어되지 않고 있다.
+epoch: 4, step: 120000, eval_loss: 1.4308, acc: 0.9068, rouge-1: 0.3916, rouge-2: 0.1096, rouge-l: 0.3715
+INFER: 울산세관은 5월에 따르면 울산 5월액은 전년 연속 증가세를 이어으며 이는 유류와 자동차 및 선박 품목의 수출 호조 영향인 보인있 이는 수출액은 전년 동월대비 5 5.0% 증가한 65 나타났되었
+epoch: 4, step: 125000, eval_loss: 1.4305, acc: 0.9065, rouge-1: 0.3916, rouge-2: 0.1096, rouge-l: 0.3716
+INFER: 문재인 대통령은 13일 독립유공자 및 유공자 후손 등을 청와대로 초청해 가진 오찬에서 100이 잘못된 길 깊이 성찰하길 바라라며 평화 일본 정부가 수출규제에 참으로 실망스럽고 안타까운 일다"라고 우리 역사를 성찰하는 힘이 있는 한 오늘의 어려움은 우리가 남에게 휘둘리지 않는 나라로 발전해가는 디딤돌이 될 것이라고 확신한다"고 말했다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-125000
+epoch: 4, step: 130000, eval_loss: 1.4312, acc: 0.9063, rouge-1: 0.3918, rouge-2: 0.1097, rouge-l: 0.3718
+INFER: 충남도의회는 지난 2일 제301회 2차 본회의를 통해하여 ‘명의 의원이 발의한 ‘충청남도 도민 인권 보호 및 증진에 관한 조례 폐지 조례안'에 대한 기명투표를 통해해 찬에는 재석의원 37명 중 찬성 25명, 나와 ‘성적지향, 성별정체성 등 어떠한 이유로도 차별받지 않을 권리가 있다'는 내용을 담은 충남충청민 인권선언 제1조'에 대한 찬안을 가결했다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-130000
+epoch: 4, step: 135000, eval_loss: 1.4304, acc: 0.9062, rouge-1: 0.3918, rouge-2: 0.1096, rouge-l: 0.3718
+INFER: 19일 뉴욕타임스( 트럼프 행정부가 급여세 감 등 부양책들을에 들어갔다고 밝혔 가운데 이는체는 없다고던 도 대통령이 경기언에도담과는 달리 트럼프관 내부에서도 경기 침체체가 대한 우려가 커지고 있다는 것을 시인 있다.
+Saving model checkpoint to ckpt/kobart_ckpt/checkpoint-135000
